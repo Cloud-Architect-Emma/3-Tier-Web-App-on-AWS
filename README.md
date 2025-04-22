@@ -8,20 +8,20 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📚 Table of Contents
-- [Architecture Overview](#-architecture-overview)
-- [Project Status](#-project-status)
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Prerequisites](#-prerequisites)
-- [Testing](#-testing)
-- [Project Screenshot](#-projectscreenshot)
+- [Architecture Overview](#architecture-overview)
+- [Project Status](#project-status)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Testing](#testing)
+- [Project Screenshot](#project-screenshot)
 - [Notes](#notes)
-- [Upcoming Enhancements](#-upcoming-enhancements)
-- [Deployment Screenshots](#-deployment-screenshots)
+- [Upcoming Enhancements](#upcoming-enhancements)
+- [Deployment Screenshots](#deployment-screenshots)
 - [RDS Tier](#rds-tier)
 - [App Tier](#app-tier)
 - [Web Tier](#web-tier)
-
+  
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
 ## Architecture Overview
