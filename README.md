@@ -21,11 +21,9 @@
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
 ## 🏗️ Architecture Overview
-
 <p align="center">
   <img src="assets/architecture/architecture.png" alt="Architecture Diagram">
 </p>
-
 
 ```
              [CloudFront - Optional Layer]
@@ -94,9 +92,8 @@ To test the app end-to-end:
    ```
    
 ## 🖼️ Project Screenshot
-
 <p align="center">
-  <img src="assets/screenshots/screenshot.png" alt="Screenshot of the 3-Tier Web App Homepage">
+  <img src="assets/screenshot.png" alt="Screenshot of the 3-Tier Web App Homepage">
 </p>
 
 ## 📌 Notes
