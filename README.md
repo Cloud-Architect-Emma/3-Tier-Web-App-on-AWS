@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📚 Table of Contents
-- [Architecture Overview](#-architecture-overview)
+- [Architecture Overview](#architecture-overview)  
 - [Project Status](#-project-status)
 - [Project Structure](#-project-structure)
 - [Technologies Used](#-technologies-used)
