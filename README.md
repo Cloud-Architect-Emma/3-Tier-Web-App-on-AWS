@@ -17,7 +17,7 @@
 - [Notes](#-notes)
 - [Upcoming Enhancements](#-upcoming-enhancements)
 - [Deployment Screenshots](#-deployment-screenshots)
-- [RDS Tier – Database Layer](#-rds-tier-database-layer)
+- [RDS Tier Database Layer](#-rds-tier-database-layer)
 - [App Tier – ](#app-tier)
 - [Web Tier](#web-tier)
     
