@@ -102,7 +102,7 @@ This section captures the deployment of the **Database Tier** using AWS CloudFor
   <img src="assets/RDS-Tier%20template.JPG" width="300"/>
 </div>
 
-### ⚙️App Tier –Backend Flask API  
+### ⚙App Tier –Backend Flask API  
 These screenshots highlight the **Application Tier** deployment. You’ll see the creation of the private EC2 instance running a Flask application, the CloudFormation template used, and the testing process to confirm backend functionality.  
 <div align="center">
   <img src="assets/app-tier%20completed%20and%20event.JPG" width="300"/>
