@@ -30,9 +30,9 @@ This project demonstrates a fully functional 3-tier web application infrastructu
 </p>
 
 ```
-      [Web Tier - Public EC2 with Apache]
+ [Web Tier - Public EC2 with Apache]
                   |
-     [App Tier - Private EC2 with Flask]
+ [App Tier - Private EC2 with Flask]
                   |
  [Database Tier - RDS MySQL in Private Subnet]
 
@@ -85,10 +85,10 @@ To test the app end-to-end:
 3. Set up reverse proxy to App Tier (Private IP on port 8080) by editing the Apache config:
    ```bash
   sudo nano /etc/httpd/conf.d/proxy.conf
-
+ ```
 
 4. Access from browser:
-   ```
+   ```cpp
    http://<Web-Tier-Public-IP>
    ```
 
@@ -115,7 +115,7 @@ These screenshots highlight the **Application Tier** deployment. You’ll see th
   <img src="assets/app-tier%20testing.JPG" width="300"/>
 </div>
 
-## Web Tier – Apache Frontend  
+## Web Tier   
 This section showcases the **Web Tier**, where a public EC2 instance is launched and configured with Apache. The images demonstrate the deployment events, resources created, and successful integration with the other tiers.  
 <div align="center">
   <img src="assets/web%203-tier%20completed.JPG" width="300"/>
