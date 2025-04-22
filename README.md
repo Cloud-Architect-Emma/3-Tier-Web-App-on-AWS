@@ -26,9 +26,8 @@ This project demonstrates a fully functional 3-tier web application infrastructu
 
 ## Architecture Overview
 <p align="center">
-  <img src="assets/architecture/architecture.png" alt="Architecture Diagram">
+  <img src="assets/architecture/Backend-3-Web-App.png" alt="Web App Backend Architecture Diagram">
 </p>
-
 ```
       [Web Tier - Public EC2 with Apache]
                   |
