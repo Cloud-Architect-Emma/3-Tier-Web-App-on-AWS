@@ -46,9 +46,6 @@ This project demonstrates a fully functional 3-tier web application infrastructu
 - [ ] CloudFront configuration (Optional)
 
 ## 📁 Project Structure
-cloudformation-templates/ ├── db-tier.yaml ├── app-tier.yaml └── web-tier.yaml
-
-assets/ ├── architecture/ │ └── architecture.png └── screenshots/ └── screenshot.png
 ```
 cloudformation-templates/
 ├── db-tier.yaml
