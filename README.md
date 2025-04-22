@@ -18,9 +18,10 @@
 - [Notes](#notes)
 - [Upcoming Enhancements](#upcoming-enhancements)
 - [Deployment Screenshots](#deployment-screenshots)
-- [RDS Tier - Database Layer](#rds-tier---database-layer)
-- [App Tier - Backend Flask API](#app-tier---backend-flask-api)
-- [Web Tier - Apache Frontend](#web-tier---apache-frontend)
+  - [RDS Tier - Database Layer](#rds-tier---database-layer)
+  - [App Tier - Backend Flask API](#app-tier---backend-flask-api)
+  - [Web Tier - Apache Frontend](#web-tier---apache-frontend)
+
     
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
@@ -94,7 +95,7 @@ To test the app end-to-end:
 
 ## 📸 Deployment Screenshots
 
-### RDS Tier--Database Layer
+#rds-tier--database-layer
 This section captures the deployment of the **Database Tier** using AWS CloudFormation. The screenshots include the RDS MySQL instance creation process, event logs, output values, deployed resources, and the associated CloudFormation template.  
 <div align="center">
   <img src="assets/RDS%20test%20completion.JPG" width="300"/>
