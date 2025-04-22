@@ -90,11 +90,14 @@ To test the app end-to-end:
    ```
    http://<Web-Tier-Public-IP>
    ```
-   
-## 🖼️ Project Screenshot
-<p align="center">
-  <img src="assets/screenshot.png" alt="Screenshot of the 3-Tier Web App Homepage">
-</p>
+
+## 🖼️ Deployment Screenshots
+📌 RDS Tier
+<div align="center"> <img src="assets/RDS%20test%20completion.JPG" width="300"/> <img src="assets/RDS-Tier%20Event%20and%20completion.JPG" width="300"/> <img src="assets/RDS-Tier%20creating%20in%20progess.JPG" width="300"/> <img src="assets/RDS-Tier%20outputs.JPG" width="300"/> <img src="assets/RDS-Tier%20resource.JPG" width="300"/> <img src="assets/RDS-Tier%20template.JPG" width="300"/> </div>
+⚙️ App Tier
+<div align="center"> <img src="assets/app-tier%20completed%20and%20event.JPG" width="300"/> <img src="assets/app-tier%20creating%20process.JPG" width="300"/> <img src="assets/app-tier%20resource.JPG" width="300"/> <img src="assets/app-tier%20template.JPG" width="300"/> <img src="assets/app-tier%20testing.JPG" width="300"/> </div>
+🌐 Web Tier
+<div align="center"> <img src="assets/web%203-teir%20completed.JPG" width="300"/> <img src="assets/web%203-teir%20completing%20process.JPG" width="300"/> <img src="assets/web%203-teir%20event.JPG" width="300"/> <img src="assets/web%203-teir%20resource.JPG" width="300"/> <img src="assets/web%203-teir%20template.JPG" width="300"/> <img src="assets/web%203-teir.JPG" width="300"/> </div>
 
 ## 📌 Notes
 - Use `python3 -m http.server 8080` on App Tier for quick testing
