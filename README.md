@@ -83,8 +83,8 @@ To test the app end-to-end:
 
 3. Set up reverse proxy to App Tier (Private IP on port 8080) by editing the Apache config:
    ```bash
-  sudo nano /etc/httpd/conf.d/proxy.conf
-  ```
+   sudo nano /etc/httpd/conf.d/proxy.conf
+   ```
 4. Access from browser:
    ```cpp
    http://<Web-Tier-Public-IP>
