@@ -1,10 +1,10 @@
 # 3-Tier Web Application on AWS 🚀
 
-[![AWS](https://img.shields.io/badge/AWS-CloudFormation-orange?logo=amazonaws)](https://aws.amazon.com/cloudformation/)
-[![Infrastructure as Code](https://img.shields.io/badge/IaC-CloudFormation-blueviolet)](https://aws.amazon.com/cloudformation/)
-[![Built with Flask](https://img.shields.io/badge/Backend-Flask-lightgrey?logo=flask)](https://flask.palletsprojects.com/)
-[![Database](https://img.shields.io/badge/Database-RDS_MySQL-blue?logo=mysql)](https://aws.amazon.com/rds/)
-[![Deployed](https://img.shields.io/badge/Deployed-Yes-success)](#)
+[![AWS](https://img.shields.io/badge/AWS-CloudFormation-orange?logo=amazonaws)](https://aws.amazon.com/cloudformation/) 
+[![Infrastructure as Code](https://img.shields.io/badge/IaC-CloudFormation-blueviolet)](https://aws.amazon.com/cloudformation/) 
+[![Built with Flask](https://img.shields.io/badge/Backend-Flask-lightgrey?logo=flask)](https://flask.palletsprojects.com/) 
+[![Database](https://img.shields.io/badge/Database-RDS_MySQL-blue?logo=mysql)](https://aws.amazon.com/rds/) 
+[![Deployed](https://img.shields.io/badge/Deployed-Yes-success)](#) 
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📚 Table of Contents
@@ -26,14 +26,16 @@ This project demonstrates a fully functional 3-tier web application infrastructu
   <img src="assets/architecture/architecture.png" alt="Architecture Diagram">
 </p>
 
+
 ```
              [CloudFront - Optional Layer]
-                      |
-          [Web Tier - Public EC2 with Apache]
-                      |
-         [App Tier - Private EC2 with Flask]
-                      |
-     [Database Tier - RDS MySQL in Private Subnet]
+                  |
+      [Web Tier - Public EC2 with Apache]
+                  |
+     [App Tier - Private EC2 with Flask]
+                  |
+ [Database Tier - RDS MySQL in Private Subnet]
+
 ```
 
 ## ✅ Project Status
@@ -44,6 +46,9 @@ This project demonstrates a fully functional 3-tier web application infrastructu
 - [ ] CloudFront configuration (Optional)
 
 ## 📁 Project Structure
+cloudformation-templates/ ├── db-tier.yaml ├── app-tier.yaml └── web-tier.yaml
+
+assets/ ├── architecture/ │ └── architecture.png └── screenshots/ └── screenshot.png
 ```
 cloudformation-templates/
 ├── db-tier.yaml
@@ -82,7 +87,9 @@ To test the app end-to-end:
    curl http://localhost
    ```
 
-3. Set up reverse proxy to App Tier (Private IP on port 8080).
+3. Set up reverse proxy to App Tier (Private IP on port 8080) by editing the Apache config:
+   ```bash
+   sudo nano /etc/httpd/conf/httpd.conf.
 
 4. Access from browser:
    ```
@@ -107,9 +114,11 @@ To test the app end-to-end:
 ---
 
 Contributions welcome! ⭐
-
 ---
 
-**Author:** Emma - AWS Junior Solution Architect
+**Author:** Emma – AWS Junior Solution Architect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/cloud-architect-emma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/cloud-architect-emma)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+---
