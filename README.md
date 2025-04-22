@@ -17,7 +17,7 @@
 - [Notes](#-notes)
 - [Upcoming Enhancements](#-upcoming-enhancements)
 - [Deployment Screenshots](#-deployment-screenshots)
-- [RDS Tier](#-rds-tier)
+- [RDS Tier](#rds-tier)
 - [App Tier – ](#app-tier)
 - [Web Tier](#web-tier)
     
