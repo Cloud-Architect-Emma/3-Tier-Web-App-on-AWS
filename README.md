@@ -8,19 +8,19 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📚 Table of Contents
-- [Architecture Overview](#-architecture-overview)
+- [Architecture Overview](#-architectureoverview)
 - [Project Status](#-project-status)
 - [Project Structure](#-project-structure)
 - [Technologies Used](#-technologies-used)
 - [Prerequisites](#-prerequisites)
 - [Testing](#-testing)
-- [Project Screenshot](#-project-screenshot)
-- [Notes](#-notes)
+- [Project Screenshot](#-projectscreenshot)
+- [Notes](#notes)
 - [Upcoming Enhancements](#-upcoming-enhancements)
 - [Deployment Screenshots](#-deployment-screenshots)
-- [RDS Tier](#-rds-tier)
-- [App Tier](#-app-tier)
-- [Web Tier](#-web-tier)
+- [RDS Tier](#rds-tier)
+- [App Tier](#app-tier)
+- [Web Tier](#web-tier)
 
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
@@ -125,6 +125,7 @@ This section showcases the **Web Tier**, where a public EC2 instance is launched
   <img src="assets/web%203-tier%20template.JPG" width="300"/>
   <img src="assets/web%203-tier.JPG" width="300"/>
 </div>
+
 ## 📌 Notes
 - Use `python3 -m http.server 8080` on App Tier for quick testing
 
