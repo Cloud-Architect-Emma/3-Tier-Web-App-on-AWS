@@ -91,7 +91,7 @@ To test the app end-to-end:
    ```
 ## 📸 Deployment Screenshots
 
-### 📌 RDS Tier –Database Layer
+### 📌RDS Tier –Database Layer
 This section captures the deployment of the **Database Tier** using AWS CloudFormation. The screenshots include the RDS MySQL instance creation process, event logs, output values, deployed resources, and the associated CloudFormation template.  
 <div align="center">
   <img src="assets/RDS%20test%20completion.JPG" width="300"/>
