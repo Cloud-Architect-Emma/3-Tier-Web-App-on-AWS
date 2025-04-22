@@ -17,9 +17,9 @@
 - [Notes](#-notes)
 - [Upcoming Enhancements](#-upcoming-enhancements)
 - [Deployment Screenshots](#-deployment-screenshots)
-- [RDS Tier](#-rds-tier)
-- [App Tier](#-app-tier)
-- [Web Tier](#-web-tier)
+- [RDS Tier](#rds-tier)
+- [App Tier](#app-tier)
+- [Web Tier](#web-tier)
     
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
