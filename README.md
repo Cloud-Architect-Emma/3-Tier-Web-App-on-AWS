@@ -94,7 +94,7 @@ To test the app end-to-end:
 
 ## 📸 Deployment Screenshots
 
-### 📌 RDS Tier – Database Layer
+## 📌 RDS Tier – Database Layer
 This section captures the deployment of the **Database Tier** using AWS CloudFormation. The screenshots include the RDS MySQL instance creation process, event logs, output values, deployed resources, and the associated CloudFormation template.  
 <div align="center">
   <img src="assets/RDS%20test%20completion.JPG" width="300"/>
@@ -105,7 +105,7 @@ This section captures the deployment of the **Database Tier** using AWS CloudFor
   <img src="assets/RDS-Tier%20template.JPG" width="300"/>
 </div>
 
-### ⚙️ App Tier – Backend Flask API  
+## ⚙️ App Tier – Backend Flask API  
 These screenshots highlight the **Application Tier** deployment. You’ll see the creation of the private EC2 instance running a Flask application, the CloudFormation template used, and the testing process to confirm backend functionality.  
 <div align="center">
   <img src="assets/app-tier%20completed%20and%20event.JPG" width="300"/>
@@ -115,7 +115,7 @@ These screenshots highlight the **Application Tier** deployment. You’ll see th
   <img src="assets/app-tier%20testing.JPG" width="300"/>
 </div>
 
-### 🌐 Web Tier – Apache Frontend  
+## 🌐 Web Tier – Apache Frontend  
 This section showcases the **Web Tier**, where a public EC2 instance is launched and configured with Apache. The images demonstrate the deployment events, resources created, and successful integration with the other tiers.  
 <div align="center">
   <img src="assets/web%203-tier%20completed.JPG" width="300"/>
