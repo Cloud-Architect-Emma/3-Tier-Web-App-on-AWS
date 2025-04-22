@@ -1,5 +1,4 @@
 # 3-Tier Web Application on AWS 🚀
-## 🚀 3-Tier Web App on AWS
 
 [![AWS](https://img.shields.io/badge/AWS-CloudFormation-orange?logo=amazonaws)](https://aws.amazon.com/cloudformation/)
 [![Infrastructure as Code](https://img.shields.io/badge/IaC-CloudFormation-blueviolet)](https://aws.amazon.com/cloudformation/)
@@ -8,9 +7,24 @@
 [![Deployed](https://img.shields.io/badge/Deployed-Yes-success)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
+## 📚 Table of Contents
+- [Architecture Overview](#-architecture-overview)
+- [Project Status](#-project-status)
+- [Project Structure](#-project-structure)
+- [Technologies Used](#-technologies-used)
+- [Prerequisites](#-prerequisites)
+- [Testing](#-testing)
+- [Project Screenshot](#-project-screenshot)
+- [Notes](#-notes)
+- [Upcoming Enhancements](#-upcoming-enhancements)
+
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
 
 ## 🏗️ Architecture Overview
+
+<p align="center">
+  <img src="assets/architecture/architecture.png" alt="Architecture Diagram">
+</p>
 
 ```
              [CloudFront - Optional Layer]
@@ -35,6 +49,12 @@ cloudformation-templates/
 ├── db-tier.yaml
 ├── app-tier.yaml
 └── web-tier.yaml
+
+assets/
+├── architecture/
+│   └── architecture.png
+└── screenshots/
+    └── screenshot.png
 ```
 
 ## 🔧 Technologies Used
@@ -68,6 +88,12 @@ To test the app end-to-end:
    ```
    http://<Web-Tier-Public-IP>
    ```
+   
+## 🖼️ Project Screenshot
+
+<p align="center">
+  <img src="assets/screenshots/screenshot.png" alt="Screenshot of the 3-Tier Web App Homepage">
+</p>
 
 ## 📌 Notes
 - Use `python3 -m http.server 8080` on App Tier for quick testing
