@@ -18,9 +18,9 @@
 - [Notes](#notes)
 - [Upcoming Enhancements](#upcoming-enhancements)
 - [Deployment Screenshots](#deployment-screenshots)
-- [RDS Tier - Database Layer](###RDS-Tier-Database-Layer) 
-- [App Tier - Backend Flask API](#app-tier---backend-flask-api)
-- [Web Tier - Apache Frontend](#web-tier---apache-frontend)
+- [RDS Tier Database-Layer](###RDS-Tier-Database-Layer) 
+- [App Tier Backend-Flask API](#app-tier---backend-flask-api)
+- [Web Tier Apache-Frontend](#web-tier---apache-frontend)
 
     
 This project demonstrates a fully functional 3-tier web application infrastructure deployed on AWS using CloudFormation.
